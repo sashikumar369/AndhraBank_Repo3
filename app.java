@@ -24,6 +24,11 @@ class Main {
     }
   }
 }
+#feature 303 changes done by deveoper3
+public static void main (String[] args){
+    DemoClass.sampleMethod(4,2);     
+ }
+
 
 #feature 302 changes by developer2
 
@@ -40,4 +45,5 @@ public static void sampleMethod(int a, int b) throws ArithmeticException{
       // writes all data to newFile
       destFile.write(array);
       System.out.println("The input.txt file is copied to newFile.");
+
 
