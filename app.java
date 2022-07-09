@@ -24,6 +24,7 @@ class Main {
     }
   }
 }
+
 #feature 302 changes by developer2
 
 public static void sampleMethod(int a, int b) throws ArithmeticException{
@@ -31,3 +32,12 @@ public static void sampleMethod(int a, int b) throws ArithmeticException{
         int c = a/b; //  int c = 4/2 which gets calculated as 2 
         System.out.println("c:"+c); // c: 2
    }
+
+#feature 301 changes done by developer1
+// reads all data from input.txt
+      sourceFile.read(array);
+
+      // writes all data to newFile
+      destFile.write(array);
+      System.out.println("The input.txt file is copied to newFile.");
+
